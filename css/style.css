@@ -1,3 +1,4 @@
+
 /* Resetando margens e definindo a fonte */
 body {
   margin: 0;
@@ -118,6 +119,7 @@ nav a.active {
   padding: 10px;
   gap: 10px;
   font-size: 20px;
+  flex-wrap: wrap;
 }
 
 .genero-header span {
@@ -265,6 +267,11 @@ nav a.active {
     flex-direction: column;
     align-items: center;
   }
+
+  .genero-header {
+    font-size: 18px;
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 480px) {
@@ -290,5 +297,9 @@ nav a.active {
 
   .modal-content {
     width: 95%;
+  }
+
+  .genero-header h2 {
+    font-size: 18px;
   }
 }
